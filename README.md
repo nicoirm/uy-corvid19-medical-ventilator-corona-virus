@@ -1,5 +1,12 @@
 # medical-ventilator
 Cheap, Urgent medical ventilator based on Android device as controller.
+
+![](readme_img/ventilator_diag.png)
+
+
+![](readme_img/ventilator_app.gif)
+
+
 Later I  will attach more files, I would use the Audio plug to control the Ventilator hardware.
 Then some audio filters to active relays and valves.
 Inspired on this video :
@@ -9,7 +16,6 @@ Urgente y barato respirador medico usando un dispositivo Android.
 Luego agregaré mas archivos, usaríamos el connector plug de audio para controlar el hardware del respirador.
 Luego unos filtros de audio para activar reles y mover las valvulas.
 
-![](readme_img/ventilator_app.gif)
 
 this is a video demo of the current android app:
 
@@ -38,4 +44,3 @@ I tested the app with a pre amplifier using a bc546b transistor and  a power sup
  so then I would filter both signals and activate the relays.
 
 
-![](readme_img/ventilator_diag.png)
