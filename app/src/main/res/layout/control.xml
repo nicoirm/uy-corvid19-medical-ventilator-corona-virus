@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical">
+
+    <TextView android:id="@+id/textViewTitle"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Time (milliseconds)" />
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/EdittextControl"
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:maxLength="5" android:maxEms="5"
+            android:minEms="5"
+            android:text="5000" />
+
+        <include
+            android:id="@+id/stopLossIncDecrs"
+            layout="@layout/increment_decrement"></include>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
