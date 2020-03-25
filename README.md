@@ -6,8 +6,8 @@ Cheap, Urgent medical ventilator based on Android device as controller.
 
 ![](readme_img/ventilator_app.gif)
 
-## contact us: testsoft1020@gmail.com
-
+### contact us: testsoft1020@gmail.com
+you can download and install the apk located on this project at apk/app-debug.apk
 Later I  will attach more files, I would use the Audio plug to control the Ventilator hardware.
 Then some audio filters to active relays and valves.
 Inspired on this video :
